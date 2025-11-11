@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="authentication" method="upgrade">
+    <name>Authentication - send mail</name>
+    <author>me</author>
+    <creationDate>2025</creationDate>
+    <authorEmail>admin@none.org</authorEmail>
+    <version>1.0</version>
+    <description>An authentication plugin to send email</description>
+    <files>
+        <filename plugin="sibbeauthemail">auth-email.php</filename>
+    </files>
+    <config/>
+</extension>

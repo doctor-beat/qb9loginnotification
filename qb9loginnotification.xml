@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="user" method="upgrade">
+	<name>User - Login notification plugin (qb9)</name>
+	<author>qb9</author>
+	<creationDate>2025-10-31</creationDate>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>0.0.1</version>
+	<description>Send notification on each login (by qb9)</description>
+	<files>
+		<filename plugin="qb9loginnotification">qb9loginnotification.php</filename>
+		<filename>LoginNotification.php</filename>
+		<filename>config-EXAMPLE.php</filename>
+	</files>
+	<languages/>
+</extension>
